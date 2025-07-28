@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000";
+// const API_BASE = "http://localhost:8000";
+const API_BASE = "http://192.168.3.134:8000";
 
 // Create axios instance with default config
 const apiClient = axios.create({
